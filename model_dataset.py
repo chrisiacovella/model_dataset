@@ -1,6 +1,6 @@
 from typing import List
 
-from .dataset import HDF5Dataset
+from modelforge.dataset.dataset import HDF5Dataset
 
 
 class ModelDataset(HDF5Dataset):
